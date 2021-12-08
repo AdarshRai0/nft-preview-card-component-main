@@ -32,44 +32,51 @@ body {
   background-color: var(--main-bg);
   color: hsl(0, 0%, 100%, 60%);
   padding: 1.25rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
 }
 .container {
   padding: 2rem;
   background-color: var(--card-bg);
   border-radius: 1rem;
   margin-bottom: 1rem;
+  max-width: 350px;
+  height: 595px;
+  box-shadow: 0 10px 30px #0c1727;
 }
 .container .main-image {
   position: relative;
 }
 .container .main-image div {
-    position: absolute;
-    background-color:hsl(178, 100%, 50%, 60%);
-    top: 0;
-    border-radius: 1rem;
-    width: 100%; 
-    height: calc(100% - 4px);
-    z-index: 999;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
+  position: absolute;
+  background-color: hsl(178, 100%, 50%, 60%);
+  top: 0;
+  border-radius: 1rem;
+  width: 100%;
+  height: calc(100% - 4px);
+  z-index: 999;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
 }
 .container .main-image div:hover {
-    opacity: 1;
-    cursor: pointer;
+  opacity: 1;
+  cursor: pointer;
 }
 
-.container .main-image div img{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+.container .main-image div img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .container h2 {
   color: var(--White);
   margin: 1rem 0;
   transition: all 0.3s ease;
-
 }
 .container h2:hover {
   color: var(--Cyan);
@@ -97,7 +104,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: start;
-  padding-top: 2rem;
+  padding-top: 0.5rem;
 }
 .container .avatar img {
   width: 3.5rem;
