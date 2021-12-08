@@ -1,4 +1,4 @@
-# Frontend Mentor - [NFT preview card component](https://nft-preview-card-component-adarshrai.netlify.app)
+# Frontend Mentor - NFT preview card component - [click to check live](https://nft-preview-card-component-adarshrai.netlify.app)
 
 ![Design preview for the NFT preview card component coding challenge](./design/desktop-preview.jpg)
 
